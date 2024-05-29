@@ -6,4 +6,5 @@ linear regression in pyspark LinearRegression model
 classification by using pyspark random forest tree
 ## py_spark_MultilayerPerceptronClassifier 
 multi-layer neural network by pyspark. The test data has 20 input feature and 5 output class. The test dataset is synthesized by "make_classification" from sklearn. The pyspark doesn't support the GPU learn on MultilayerPerceptronClassifier yet and it is hard to perform large NN.
+<img src='pyspark_code_example/py_spark_MultilayerPerceptronClassifier/confusion matrix.jpg' width='250'>
 

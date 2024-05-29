@@ -4,6 +4,7 @@ version: spark 3.3.1 hadoop 2.7 python 3.9 Java 17 pyspark 3.3.1
 linear regression in pyspark LinearRegression model
 ## pyspark_classification 
 classification by using pyspark random forest tree
+<img src="pyspark_classification/con_matrix_random_forest.png" width="500"/>
 ## py_spark_MultilayerPerceptronClassifier 
 multi-layer neural network by pyspark. The test data has 20 input feature and 5 output class. The test dataset is synthesized by "make_classification" from sklearn. The pyspark doesn't support the GPU learn on MultilayerPerceptronClassifier yet and it is hard to perform large NN.
 <img src="py_spark_MultilayerPerceptronClassifier/con_matrix.png" width="500"/>
